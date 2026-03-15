@@ -7,31 +7,31 @@
     combos {
         compatible = "zmk,combos";
 
-        MB2 {
+        mb2 {
             bindings = <&mkp MB2>;
             key-positions = <33 34>;
             layers = <0>;
         };
 
-        MB3 {
+        mb3 {
             bindings = <&mkp MB3>;
             key-positions = <33 32>;
             layers = <0>;
         };
 
-        MB4 {
+        mb4 {
             bindings = <&mkp MB4>;
             key-positions = <33 32>;
             layers = <3>;
         };
 
-        MB5 {
+        mb5 {
             bindings = <&mkp MB5>;
             key-positions = <33 34>;
             layers = <3>;
         };
 
-        MO4 {
+        mo4 {
             bindings = <&mo 4>;
             key-positions = <58 59>;
         };
