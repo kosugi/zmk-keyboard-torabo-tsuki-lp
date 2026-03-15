@@ -9,25 +9,25 @@
 
         mb2 {
             bindings = <&mkp MB2>;
-            key-positions = <33 34>;
+            key-positions = <34 35>;
             layers = <0>;
         };
 
         mb3 {
             bindings = <&mkp MB3>;
-            key-positions = <33 32>;
+            key-positions = <33 34>;
             layers = <0>;
         };
 
         mb4 {
             bindings = <&mkp MB4>;
-            key-positions = <33 32>;
+            key-positions = <33 34>;
             layers = <3>;
         };
 
         mb5 {
             bindings = <&mkp MB5>;
-            key-positions = <33 34>;
+            key-positions = <34 35>;
             layers = <3>;
         };
 
