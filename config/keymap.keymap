@@ -32,7 +32,7 @@
         };
 
         mo4 {
-            bindings = <&mo 4>;
+            bindings = <&lt 4 LS(LA(LC(INSERT)))>;
             key-positions = <58 59>;
         };
 
@@ -80,27 +80,27 @@
 &none  &kp EXCL      &kp AT          &kp HASH          &kp DOLLAR     &kp PERCENT                           &kp CARET      &kp TILDE     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BACKSLASH  &none
 &none  &kp QUESTION  &kp LEFT_BRACE  &kp RIGHT_BRACE   &kp PIPE       &kp SINGLE_QUOTE   &none   &none      &kp BACKSPACE  &kp PLUS      &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp MINUS      &none
 &none  &kp GRAVE     &kp LESS_THAN   &kp GREATER_THAN  &kp AMPERSAND  &kp DOUBLE_QUOTES  &trans  &kp COLON  &kp EQUAL      &kp ASTERISK  &kp COMMA             &kp PERIOD             &kp SLASH      &none
-&none  &trans        &trans          &trans            &trans         &trans             &trans  &trans     &trans         &none         &none                 &trans                 &trans         &none
+&none  &trans        &trans          &trans            &trans         &trans             &trans  &kp SPACE  &trans         &none         &none                 &trans                 &trans         &none
             >;
         };
 
         numbers {
             bindings = <
-&none  &none         &none           &none             &none          &none                                              &none          &none         &none             &none              &none      &none
-&none  &kp NUMBER_1  &kp NUMBER_2    &kp NUMBER_3      &kp NUMBER_4   &kp N5                                             &kp NUMBER_6   &kp N7        &kp N8            &kp N9             &kp N0     &none
-&none  &kp QUESTION  &kp LEFT_BRACE  &kp RIGHT_BRACE   &kp PIPE       &kp SINGLE_QUOTE   &none                &none      &kp BACKSPACE  &kp PLUS      &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp MINUS  &none
-&none  &kp GRAVE     &kp LESS_THAN   &kp GREATER_THAN  &kp AMPERSAND  &kp DOUBLE_QUOTES  &trans               &kp COLON  &kp EQUAL      &kp ASTERISK  &kp COMMA         &kp PERIOD         &kp SLASH  &none
-&none  &trans        &trans          &trans            &trans         &trans             &kp LS(LA(LC(INS)))  &trans     &trans         &none         &none             &trans             &trans     &none
+&none  &none         &none           &none             &none          &none                                 &none          &none         &none             &none              &none      &none
+&none  &kp NUMBER_1  &kp NUMBER_2    &kp NUMBER_3      &kp NUMBER_4   &kp N5                                &kp NUMBER_6   &kp N7        &kp N8            &kp N9             &kp N0     &none
+&none  &kp QUESTION  &kp LEFT_BRACE  &kp RIGHT_BRACE   &kp PIPE       &kp SINGLE_QUOTE   &none   &none      &kp BACKSPACE  &kp PLUS      &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp MINUS  &none
+&none  &kp GRAVE     &kp LESS_THAN   &kp GREATER_THAN  &kp AMPERSAND  &kp DOUBLE_QUOTES  &trans  &kp COLON  &kp EQUAL      &kp ASTERISK  &kp COMMA         &kp PERIOD         &kp SLASH  &none
+&none  &trans        &trans          &trans            &trans         &trans             &trans  &trans     &trans         &none         &none             &trans             &trans     &none
             >;
         };
 
         controls {
             bindings = <
-&none  &none   &none    &none    &none    &none                                &none          &none           &none            &none            &none       &none
-&none  &kp F1  &kp F2   &kp F3   &kp F4   &none                                &kp HOME       &kp PAGE_UP     &kp UP_ARROW     &kp PAGE_DOWN    &kp END     &none
-&none  &kp F5  &kp F6   &kp F7   &kp F8   &none   &none   &none                &kp BACKSPACE  &kp LEFT_ARROW  &kp DOWN_ARROW   &kp RIGHT_ARROW  &kp DELETE  &none
-&none  &kp F9  &kp F10  &kp F11  &kp F12  &none   &none   &none                &none          &kp LA(ESCAPE)  &kp LA(LS(TAB))  &kp LA(LC(TAB))  &kp INS     &none
-&none  &trans  &trans   &trans   &trans   &trans  &trans  &kp LS(LA(LC(INS)))  &trans         &none           &none            &trans           &trans      &none
+&none  &none   &none    &none    &none    &none                      &none          &none           &none            &none            &none       &none
+&none  &kp F1  &kp F2   &kp F3   &kp F4   &none                      &kp HOME       &kp PAGE_UP     &kp UP_ARROW     &kp PAGE_DOWN    &kp END     &none
+&none  &kp F5  &kp F6   &kp F7   &kp F8   &none   &none   &none      &kp BACKSPACE  &kp LEFT_ARROW  &kp DOWN_ARROW   &kp RIGHT_ARROW  &kp DELETE  &none
+&none  &kp F9  &kp F10  &kp F11  &kp F12  &none   &none   &none      &none          &kp LA(ESCAPE)  &kp LA(LS(TAB))  &kp LA(LC(TAB))  &kp INS     &none
+&none  &trans  &trans   &trans   &trans   &trans  &trans  &kp SPACE  &trans         &none           &none            &trans           &trans      &none
             >;
         };
 
