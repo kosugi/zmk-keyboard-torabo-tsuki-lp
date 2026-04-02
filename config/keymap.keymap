@@ -37,7 +37,7 @@
         };
 
         lang {
-            bindings = <&kp LANGUAGE_1>;
+            bindings = <&mt LEFT_ALT LANGUAGE_1>;
             key-positions = <57 60>;
         };
 
