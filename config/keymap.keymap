@@ -46,6 +46,16 @@
             key-positions = <19 21>;
             layers = <5>;
         };
+
+        semicolon {
+            bindings = <&kp SEMI>;
+            key-positions = <35 36>;
+        };
+
+        quotes {
+            bindings = <&kp SINGLE_QUOTE>;
+            key-positions = <50 49>;
+        };
     };
 
     behaviors {
@@ -92,21 +102,21 @@
 
         numbers {
             bindings = <
-&none  &none         &none             &none              &none          &none                            &none          &none         &none             &none              &none      &none
-&none  &kp NUMBER_1  &kp NUMBER_2      &kp NUMBER_3       &kp NUMBER_4   &kp N5                           &kp NUMBER_6   &kp N7        &kp N8            &kp N9             &kp N0     &none
-&none  &kp QUESTION  &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp PIPE       &kp SEMI   &none         &none   &kp BACKSPACE  &kp PLUS      &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp MINUS  &none
-&none  &kp GRAVE     &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &kp AMPERSAND  &kp COLON  &none         &none   &kp EQUAL      &kp ASTERISK  &kp COMMA         &kp PERIOD         &kp SLASH  &none
-&none  &trans        &trans            &trans             &trans         &trans     &kp LEFT_ALT  &trans  &trans         &none         &none             &trans             &trans     &none
+&none  &none         &none             &none              &none          &none                      &none          &none         &none             &none              &none      &none
+&none  &kp NUMBER_1  &kp NUMBER_2      &kp NUMBER_3       &kp NUMBER_4   &kp N5                     &kp NUMBER_6   &kp N7        &kp N8            &kp N9             &kp N0     &none
+&none  &kp QUESTION  &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp PIPE       &kp SEMI   &none   &none   &kp BACKSPACE  &kp PLUS      &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp MINUS  &none
+&none  &kp GRAVE     &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &kp AMPERSAND  &kp COLON  &none   &none   &kp EQUAL      &kp ASTERISK  &kp COMMA         &kp PERIOD         &kp SLASH  &none
+&none  &trans        &trans            &trans             &trans         &trans     &trans  &trans  &trans         &none         &none             &trans             &trans     &none
             >;
         };
 
         controls {
             bindings = <
-&none  &none   &none    &none    &none    &none                          &none          &none           &none            &none            &none       &none
-&none  &kp F1  &kp F2   &kp F3   &kp F4   &none                          &kp HOME       &kp PAGE_UP     &kp UP_ARROW     &kp PAGE_DOWN    &kp END     &none
-&none  &kp F5  &kp F6   &kp F7   &kp F8   &none   &none   &none          &kp BACKSPACE  &kp LEFT_ARROW  &kp DOWN_ARROW   &kp RIGHT_ARROW  &kp DELETE  &none
-&none  &kp F9  &kp F10  &kp F11  &kp F12  &none   &none   &none          &none          &kp LA(ESCAPE)  &kp LA(LS(TAB))  &kp LA(LC(TAB))  &kp INS     &none
-&none  &trans  &trans   &trans   &trans   &trans  &trans  &kp RIGHT_ALT  &trans         &none           &none            &trans           &trans      &none
+&none  &none   &none    &none    &none    &none                   &none          &none           &none            &none            &none       &none
+&none  &kp F1  &kp F2   &kp F3   &kp F4   &none                   &kp HOME       &kp PAGE_UP     &kp UP_ARROW     &kp PAGE_DOWN    &kp END     &none
+&none  &kp F5  &kp F6   &kp F7   &kp F8   &none   &none   &none   &kp BACKSPACE  &kp LEFT_ARROW  &kp DOWN_ARROW   &kp RIGHT_ARROW  &kp DELETE  &none
+&none  &kp F9  &kp F10  &kp F11  &kp F12  &none   &none   &none   &none          &kp LA(ESCAPE)  &kp LA(LS(TAB))  &kp LA(LC(TAB))  &kp INS     &none
+&none  &trans  &trans   &trans   &trans   &trans  &trans  &trans  &trans         &none           &none            &trans           &trans      &none
             >;
         };
 
