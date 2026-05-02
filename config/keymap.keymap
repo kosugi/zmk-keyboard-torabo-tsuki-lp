@@ -22,13 +22,13 @@
         mb4 {
             bindings = <&mkp MB4>;
             key-positions = <33 34>;
-            layers = <3>;
+            layers = <1>;
         };
 
         mb5 {
             bindings = <&mkp MB5>;
             key-positions = <34 35>;
-            layers = <3>;
+            layers = <1>;
         };
 
         mo4 {
@@ -55,6 +55,18 @@
         quotes {
             bindings = <&kp SINGLE_QUOTE>;
             key-positions = <50 49>;
+        };
+
+        colon {
+            bindings = <&kp COLON>;
+            key-positions = <35 36>;
+            layers = <1 2>;
+        };
+
+        dquote {
+            bindings = <&kp DOUBLE_QUOTES>;
+            key-positions = <49 50>;
+            layers = <1 2>;
         };
     };
 
