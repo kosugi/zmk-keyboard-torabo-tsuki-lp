@@ -68,6 +68,26 @@
             key-positions = <49 50>;
             layers = <1 2>;
         };
+
+        lalt {
+            bindings = <&kp LEFT_ALT>;
+            key-positions = <28 26>;
+        };
+
+        ralt {
+            bindings = <&kp RIGHT_ALT>;
+            key-positions = <33 35>;
+        };
+
+        lctrl {
+            bindings = <&kp LCTRL>;
+            key-positions = <25 27>;
+        };
+
+        rctrl {
+            bindings = <&kp RCTRL>;
+            key-positions = <34 36>;
+        };
     };
 
     behaviors {
